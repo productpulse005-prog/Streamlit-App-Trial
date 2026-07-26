@@ -1,25 +1,28 @@
-# 🎈 Blank app template
+# Career Booster Hub
 
-A simple Streamlit app template for you to modify!
+A professional Streamlit site for career toolkit services with resume analysis, LinkedIn score prediction, and premium profile creation.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## Features
 
-### How to run it on your own machine
+- Resume Analyzer and ATS score interpreter
+- LinkedIn profile score prediction
+- Premium profile creation for resumes and LinkedIn
 
-Prerequisite: install `uv` if you don't already have it.
+## Run locally
 
+1. Install dependencies:
+
+```bash
+pip install -r requirements.txt
 ```
-$ curl -LsSf https://astral.sh/uv/install.sh | sh
+
+2. Run the app:
+
+```bash
+streamlit run streamlit_app.py
 ```
 
-1. Sync the dependencies
+## Notes
 
-   ```
-   $ uv sync
-   ```
-
-2. Run the app
-
-   ```
-   $ uv run streamlit run streamlit_app.py
-   ```
+- This app uses Streamlit to provide a polished user experience.
+- The premium profile pages include structured outlines for professional resume and LinkedIn content.
