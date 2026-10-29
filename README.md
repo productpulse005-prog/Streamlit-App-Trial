@@ -8,19 +8,6 @@ A professional Streamlit site for career toolkit services with resume analysis, 
 - LinkedIn profile score prediction
 - Premium profile creation for resumes and LinkedIn
 
-## Run locally
-
-1. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-2. Run the app:
-
-```bash
-streamlit run streamlit_app.py
-```
 
 ## Notes
 
